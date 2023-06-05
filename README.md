@@ -22,3 +22,4 @@ html・css・javascriptによって実現しようした制作物。
 - 「追加」ボタンで席を追加
 
 ### gifs
+![download](https://github.com/Fuyuki006/seat_arrangement_test/assets/125243602/45093189-3f26-46d1-a896-241096b53e8e)
