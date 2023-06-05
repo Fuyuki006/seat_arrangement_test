@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+body {
+    background:#63b47a;
+  }
+  
+  * {
+    font-family:"Helvetica Neue", Helvetica, Arial;
+  }
+
+.h1 {
+    text-align:center;
+    font-size:1.4em;
+    font-weight:700;
+    color:#000;
+    margin-bottom:24px;
+}
+
+.form {
+    background:#fff;
+    border-radius:6px;
+    padding:10px;
+    padding-top:30px;
+    padding-bottom:1px;
+    width:300px;
+    margin:50px auto;
+    box-shadow:15px 15px 0px rgba(0,0,0,.1);
+}
+
+.userid,
+.password {
+    width:100%;
+    background:#f5f5f5;
+    border:0;
+    padding:20px;
+    border-radius:6px;
+    margin-bottom:10px;
+    border:1px solid #eee;
+  }
+
+.attendance_lab {
+    text-align:center;
+    padding-top:35px;
+    color:#000;
+}
+.attendance_input {
+    margin-left:20px;
+    cursor:pointer;
+}
+
+.Login {
+  position:relative;
+  width:100%;
+  padding:20px;
+  border-radius:6px;
+  border:0;
+  background:#f26964;
+  font-size:1.2em;
+  color:#fff;
+  text-shadow:1px 1px 0px rgba(0,0,0,.1);
+  box-shadow:0px 3px 0px #c1524e;
+  cursor:pointer;
+}
+
+.Login:active {
+  top:3px;
+  box-shadow:none;
+}
+
+h5 {
+    text-align:center;
+    margin-top:25px;
+    font-size:15px;
+    color:rgba(0,0,0,.3);
+}
+  
+h5 > a,a:visited {
+    text-decoration:underline;
+}
+  
+h5 > a:hover {
+    text-decoration:none;
+    color:#ff0000
+}

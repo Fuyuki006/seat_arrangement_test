@@ -1,0 +1,19 @@
+@charset "utf-8";
+  .chair {
+    top: 0px;
+    left: 0px;
+  }
+
+  .canvas{
+    border:solid medium #000;
+  }
+
+  .chair {
+    position:relative;
+    width: 50px;
+    height: 50px;
+    background:url(../images/armchair.png) no-repeat ;
+    background-size: cover;
+    cursor:move;
+    counter-reset: number;
+  }
